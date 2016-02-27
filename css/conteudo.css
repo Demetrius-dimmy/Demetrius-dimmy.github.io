@@ -36,7 +36,7 @@
 
 .menu a:hover{
 	background-color:#696969;
-	padding:40px 10px;
+	padding:40px 8px;
 	text-decoration:none;
     color:#fff;
 	float:center;
@@ -52,7 +52,7 @@
 
 #animado_botao{
 	border:solid 1px black;
-	width:1300px;
+	width:1250px;
 	height:42px;
 	font-family:verdana;
 	font-size:24px;
@@ -67,10 +67,9 @@
 	}
 	
 	.colunas {width:95%;
-		          padding:2x;
-				  margin:20px;
+		          margin:20px;				  
 				  
-				  text-align:justify;
+				  text-align:left;
 				  height:auto;
 				  -moz-column-count:2;
 				  -moz-column-gap:30px;
