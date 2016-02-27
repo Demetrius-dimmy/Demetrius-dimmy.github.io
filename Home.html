@@ -2,47 +2,19 @@
 
 <!DOCTYPE html>
  <html lang="pt-BR">
+
   <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
  
      <title>AI e Robotica</title>
 	 
 	 <link href="css/modelo.css" rel="stylesheet" type="text/css">
 	 <link href="css/conteudo.css" rel="stylesheet" type="text/css">
-	 <script type="text/javascript">
- var botao = 0;
- function anim_botao() {
-  bootbotao = setTimeout("anim_botao()", 3000);
-  botao = botao +1;
-  if (botao == 6) {botao = 1};
-  if (botao == 1)
-  {document.form_botao.animado.value = "Developed by Demetrius"};
-  if (botao == 2)
-  {document.form_botao.animado.value = "Developed by Filipe"};
-  if (botao == 3)
-  {document.form_botao.animado.value = "Developed by Allan"};
-   if (botao == 4)
-  {document.form_botao.animado.value = "Developed by Dionatan"};
-   if (botao == 5)
-  {document.form_botao.animado.value = "Developed by Luis"};
-  }
-  
- function funcao_botao() {
-  if (botao == 1)
-  {location.href="http://www.facebook.com/dimmy.deoliveira.7"};
-  if (botao == 2)
-  {location.href="https://www.facebook.com/filipe.souza.3701?fref=ts"};
-  if (botao == 3)
-  {location.href="https://www.facebook.com/allan.martins.357284?fref=ts"};
-  if (botao == 4)
-  {location.href="https://www.facebook.com/dionatan.santos.779?fref=ts"};
-  if (botao == 5)
-  {location.href="https://www.facebook.com/LuisFelipeLuginski?fref=ts"};
-  
- }
- setTimeout("anim_botao()", 10);
-</script>
+	 
 
  </head>
  
@@ -64,36 +36,53 @@
 	<br>
 
 	 </nav>
+	 <header>
 	 <div class ="menu">
-       <a href="#">Home</a>
-	   <a href="#">Robotica</a>
-	   <a href="#">Isaac Asimov</a>
-	  <a href="#">As Três Leis</a>
-	  
+       <a href="Home.html">Home</a>
+	   <a href="Robotica.html">Robotica</a>
+	   <a href="Isaac.html">Isaac Asimov</a>
+	   <a href="Leis.html">As Três Leis</a>
+	  </header>
 
 </div>
 
 
 	 
 	 <aside>
+	 <div class="example">
 	  <h1>Introdução a Robótica </h1>
-	 <div class="colunas">
+	<div id="content" class="content">
 	
-	 Na sociedade atual, há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
+	<div> Na sociedade atual,há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
+	 
+	 
+	 A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial, entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias.
+	 </div>
+	 <div>Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. Na sociedade atual, há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. 
+	 </div>
+	 <div>
+	 Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
 
-A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial, entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias. Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. Na sociedade atual, há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
-
-A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial, entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias. Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. Na sociedade atual, há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
-
-A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial, entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias. Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. 
+ A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial, entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias. 
+ </div>
+ <div>Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. Na sociedade atual, há uma crescente necessidade de se realizar tarefas com eficiência e precisão. Existe também tarefas a serem realizadas em lugares onde a presença humana se torna difícil, arriscada e até mesmo impossível, como o fundo do mar ou a imensidão do espaço. Para realizar essas tarefas, se faz cada vez mais necessária a presença de dispositivos (robôs), que realizam essas tarefas sem risco de vida. A robótica é a área que se preocupa com o desenvolvimento de tais dispositivos. Robótica é uma área multidisciplinar, altamente ativa que busca o desenvolvimento e a integração de técnicas e algoritmos para a criação de robôs. 
+</div>
+<div>
+A robótica envolve matérias como engenharia mecânica, engenharia elétrica, inteligência artificial,entre outras, com uma perfeita harmonia, que se faz necessária para se projetar essas maravilhosas tecnologias. Temos hoje robôs em várias áreas de nossa sociedade: robôs que prestam serviços, como os desarmadores de bomba, robôs com a nobre finalidade da pesquisa científica e educacional e até mesmo os robôs operários, que se instalaram em nossas fábricas e foram responsáveis pela "segunda Revolução Industrial", revolucionando a produção em série, substituindo o carne e o osso pelo aço, agilizando e fornecendo maior qualidade aos produtos. 
+</div></div>
+    <hr />
+    <div class="pagination">
+        <ul>
+            <li><a href="#" id="prev" class="prevnext">« Previous</a></li>
+            <li><a href="#" id="next" class="prevnext">Next »</a></li>
+        </ul>
+        <br />
+        <div id="page_number" class="page_number">1</div>
+    </div>
 </div>
 	 </aside>
 	 
-	 <FORM method=GET action="http://www.google.com/search">  
-<A HREF="http://www.google.com/" target="blank">  
-<INPUT TYPE=text name=q size=20 maxlength=255 value="" background-color="#ff00ff"> 
-<INPUT type=submit name=btnG VALUE="Google Search"> 
-</FORM>
+	 
   
 	 <article>
 	<h1>Links Uteis</h1>
